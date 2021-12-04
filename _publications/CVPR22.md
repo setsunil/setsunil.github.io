@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 2"
+title: "Learning Discriminative Shrinkage Deep Networks for Image Deconvolution"
 collection: publications
 permalink: /publication/CVPR22
 excerpt: '__Pin-Hung Kuo__, Jinshan Pan, Shao-Yi Chien, Ming-Hsuan Yang'
