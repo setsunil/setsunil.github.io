@@ -10,4 +10,4 @@ Before that, I received my B.S. and M.S. degrees from the EE Department at Natio
 
 My research interests include computer vision and machine learning and video coding. 
 
-Here is my [CV](/files/CV_Pin-Hung_Kuo.pdf)
+Here is my [CV](/files/CV_Pin-Hung_Kuo.pdf).
