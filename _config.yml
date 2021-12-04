@@ -179,8 +179,8 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: false
-    permalink: /:collection/:path/
+    output: true
+    #permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
