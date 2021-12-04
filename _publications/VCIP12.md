@@ -1,5 +1,5 @@
 ---
-title: "Content-Adaptive Inverse Tone Mapping"
+title: 'Content-Adaptive Inverse Tone Mapping'
 collection: publications
 date: 2012-11-27
 excerpt: 'Pin-Hung Kuo, Chi-Sun Tang, and Shao-Yi Chien'
