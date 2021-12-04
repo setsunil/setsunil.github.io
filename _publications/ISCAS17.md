@@ -2,7 +2,7 @@
 title: "Distributed Video Codec With Spatiotemporal Side Information"
 #collection: publications
 #permalink: /publication/ISCAS17
-excerpt: 'Yueh-Ying Lee, Pin-Hung Kuo, Chia-Han Lee, Yen-Kuang Chen, and Shao-Yi Chien '
+excerpt: 'Yueh-Ying Lee, **Pin-Hung Kuo**, Chia-Han Lee, Yen-Kuang Chen, and Shao-Yi Chien '
 date: 2017-05-28
 venue: 'IEEE International Symposium on Circuits and Systems (ISCAS)'
 paperurl: 'https://ieeexplore.ieee.org/document/8050299'
