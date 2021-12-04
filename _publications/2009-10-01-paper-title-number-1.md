@@ -1,15 +1,12 @@
 ---
-title: "Paper Title Number 1"
-collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+title: "Automatic High Dynamic Range Hallucination in Inverse Tone Mapping"
+#collection: publications
+#permalink: /publication/2009-10-01-paper-title-number-1
+excerpt: 'Pin-Hung Kuo, Huai-Jen Liang, Chi-Sun Tang, and Shao-Yi Chien'
+date: 2014-09-22
+venue: 'IEEE 16th Workshop on Multimedia Signal Processing (MMSP)'
+paperurl: 'https://ieeexplore.ieee.org/document/6958828?arnumber=6958828'
+#citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Nowadays the dynamic range of displays has been higher and higher, which means that contents can be recorded and displayed with more detail. However, the original low dynamic range contents were recorded in a lower dynamic range. Such contents will be unsatisfying compared to high dynamic range contents, especially in the saturated, or overexposed region. This paper proposes an algorithm to compensate such exposed regions, which is called automatic high dynamic range image hallucination for inverse tone mapping. Inverse tone-mapping is the process of creating a high dynamic range image from a single low dynamic range image. In this work, high dynamic range image hallucination is used as the key method to reproduce the information which is lost in the low dynamic range image capturing. Previous methods require user interaction as a hallucination criteria, and is not practical in some applications where user interaction is not available. In this paper, the hallucination is performed automatically with the assistance of luminance and texture decoupling process. This scheme produces visually satisfying results and has the potential to be applied to video inverse tone-mapping with its automatic property.
+[Download paper here](https://ieeexplore.ieee.org/document/6958828?arnumber=6958828)
