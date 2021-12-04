@@ -6,7 +6,6 @@ excerpt: 'Yueh-Ying Lee, __Pin-Hung Kuo__, Chia-Han Lee, Yen-Kuang Chen, and Sha
 date: 2017
 venue: 'IEEE International Symposium on Circuits and Systems (ISCAS)'
 paperurl: 'https://ieeexplore.ieee.org/document/8050299'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
 
 In this paper, a distributed video coding (DVC) system with spatiotemporal side information is proposed. The proposed framework addresses the problem of poor compression performance of DVC for high-motion video sequences by integrating temporal and spatial prediction schemes in one framework. Super-resolution techniques are employed for spatially-predicted side information generation, and a support vector machine is trained to adaptively select the coding structure with both spatial and temporal prediction. In addition, an encoder-driven coding mode selection at different granularities, including frame, block and coefficient levels, is adopted to further improve the coding performance for various video conditions. Experimental results show that the average BD rate reduction of the proposed framework is 12.93% compared with the DISCOVER DVC, and the coding gain is significant, especially for high-motion sequences. Moreover, the average computing complexity is only 92.26% of the DISCOVER DVC.
