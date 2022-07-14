@@ -1,7 +1,7 @@
 ---
 title: "Learning Discriminative Shrinkage Deep Networks for Image Deconvolution"
 collection: publications
-permalink: /publication/CVPR22
+permalink: /publication/ECCV22
 excerpt: '**Pin-Hung Kuo**, Jinshan Pan, Shao-Yi Chien, and Ming-Hsuan Yang'
 date: 2021-12-04
 venue: 'arXiv preprint'
