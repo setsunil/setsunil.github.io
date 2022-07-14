@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/ECCV22
 excerpt: '**Pin-Hung Kuo**, Jinshan Pan, Shao-Yi Chien, and Ming-Hsuan Yang'
 date: 2021-12-04
-venue: 'arXiv preprint'
+venue: 'European Conference on Computer Vision (ECCV)'
 paperurl: 'https://arxiv.org/pdf/2111.13876'
 ---
 
