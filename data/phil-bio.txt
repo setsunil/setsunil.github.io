@@ -1,0 +1,3 @@
+Pin-Hung Kuo received his Ph.D. degree from Graduate Institute of Electronics Engineering at NationalTaiwan University (NTU), Taipei, Taiwan. 
+He received his B.S. and M.S. degrees from the Department of Electrical Engineering, NTU, in 2009and 2012, respectively. 
+His research interests include computer vision and deep learning.

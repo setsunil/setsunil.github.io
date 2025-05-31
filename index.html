@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Pin-Hung Kuo</title>
+
+    <meta name="author" content="Pin-Hung Kuo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Pin-Hung Kuo
+                </p>
+                <p>
+                  About me
+                  I am a Ph.D. candidate in Graduate Institute of Electronics Engineering, National Taiwan University, Taiwan, under the advisement of Prof. Shao-Yi Chien and Prof. Ming-Hsuan Yang.
+                  Before that, I received my B.S. and M.S. degrees from the EE Department at National Taiwan University in 2009 and 2012, respectively.
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:setsunil@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="data/CV_Pin-Hung_Kuo.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="data/phil-bio.txt">Bio</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/setsunil/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/phil.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/JonBarron.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
+                <p>
+                  I'm interested in computer vision, deep learning. Some papers are <span class="highlight">highlighted</span>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+<!--
+    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/bolt3d.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+          <img src='images/bolt3d.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function bolt3d_start() {
+            document.getElementById('bolt3d_image').style.opacity = "1";
+          }
+
+          function bolt3d_stop() {
+            document.getElementById('bolt3d_image').style.opacity = "0";
+          }
+          bolt3d_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://szymanowiczs.github.io/bolt3d">
+          <span class="papertitle">Bolt3D: Generating 3D Scenes in Seconds</span>
+        </a>
+        <br>
+        <a href="https://szymanowiczs.github.io/">Stanislaw Szymanowicz</a>,
+        <a href="https://jasonyzhang.com">Jason Y. Zhang</a>,
+        <a href="https://pratulsrinivasan.github.io">Pratul Srinivasan</a>,
+        <a href="https://ruiqigao.github.io">Ruiqi Gao</a>,
+        <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
+        <a href="https://holynski.org">Aleksander Holynski</a>,
+        <a href="https://ricardomartinbrualla.com">Ricardo Martin-Brualla</a>,
+		<strong>Jonathan T. Barron</strong>,
+        <a href="https://henzler.github.io">Philipp Henzler</a>
+        <br>
+        <em>arXiv</em>, 2025
+        <br>
+        <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
+        /
+        <a href="https://szymanowiczs.github.io/bolt3d">arXiv</a>
+        <p></p>
+        <p>
+		By training a latent diffusion model to directly output 3D Gaussians we enable fast (~6 seconds on a single GPU) feed-forward 3D scene generation.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="cat4d_stop()" onmouseover="cat4d_start()" bgcolor="#ffffd0">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='cat4d_image'><video  width=100% height=100% muted autoplay loop>
+          <source src="images/cat4d.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/cat4d.jpg' width="160">
+        </div>
+        <script type="text/javascript">
+          function cat4d_start() {
+            document.getElementById('cat4d_image').style.opacity = "1";
+          }
+
+          function cat4d_stop() {
+            document.getElementById('cat4d_image').style.opacity = "0";
+          }
+          cat4d_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://cat-4d.github.io/">
+			<span class="papertitle">CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models
+</span>
+        </a>
+        <br>
+				<a href="https://www.cs.columbia.edu/~rundi/">Rundi Wu</a>,
+				<a href="https://ruiqigao.github.io/">Ruiqi Gao</a>,
+				<a href="https://poolio.github.io/">Ben Poole</a>,
+				<a href="https://alextrevithick.github.io/">Alex Trevithick</a>,
+				<a href="https://www.cs.columbia.edu/~cxz/index.htm/">Changxi Zheng</a>,
+				<strong>Jonathan T. Barron</strong>,
+				<a href="https://holynski.org/">Aleksander Holynski</a>
+        <br>
+        <em>CVPR</em>, 2025 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+        <br>
+        <a href="https://cat-4d.github.io/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2411.18613">arXiv</a>
+        <p></p>
+        <p>
+				An approach for turning a video into a 4D radiance field that can be rendered in real-time. When combined with a text-to-video model, this enables text-to-4D.
+        </p>
+      </td>
+    </tr>
+-->
+        <!-- DSD TCSVT -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle"><img src='media/papers/dsd_tcsvt.png' width="200"></td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://ieeexplore.ieee.org/document/10937503">
+              <papertitle>PTT: Point-Trajectory Transformer for Efficient Temporal 3D Object Detection</papertitle>
+            </a>
+            <br>Kuan-Chih Huang, <strong>Weijie Lyu</strong>, Ming-Hsuan Yang, Yi-Hsuan Tsai
+            <br>
+            <em>CVPR 2024</em>
+            <br>
+            <a href="https://setsunil.github.io/DSD/">Project Page</a> /
+            <a href="https://ieeexplore.ieee.org/document/10937503">IEEE Xplore</a> /
+            <a href="https://github.com/setsunil/DSDNet">GitHub</a>
+          </td>
+        </tr>
+        <!-- DSD TCSVT-->
+          </tbody></table>
+
+          <!--
+					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+            <tr>
+              <td>
+                <h2>Miscellanea</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+           
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+						     <div class="colored-box" style="background-color: #fcb97d;">
+								 <h2>Micropapers</h2>
+								 </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2112.11687">Squareplus: A Softplus-Like Algebraic Rectifier</a>
+                <br>
+                <a href="https://arxiv.org/abs/2010.09714">A Convenient Generalization of Schlick's Bias and Gain Functions</a>
+                <br>
+                <a href="https://arxiv.org/abs/1704.07483">Continuously Differentiable Exponential Linear Units</a>
+                <br>
+                <a href="https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf">Scholars & Big Models: How Can Academics Adapt?</a>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+						     <div class="colored-box" style="background-color: #aaba9e;">
+								 <h2>Recorded Talks</h2>
+								 </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                <a href="https://www.youtube.com/watch?v=hFlF33JZbA0">Radiance Fields and the Future of Generative Media, 2025</a><br>				  
+                <a href="https://www.youtube.com/watch?v=h9vq_65eDas">View Dependent Podcast, 2024</a><br>
+                <a href="https://www.youtube.com/watch?v=4tDhYsFuEqo">Bay Area Robotics Symposium, 2023
+</a><br>
+                <a href="https://youtu.be/TvWkwDYtBP4?t=7604">EGSR Keynote, 2021</a><br>
+				<a href="https://www.youtube.com/watch?v=nRyOzHpcr4Q">TUM AI Lecture Series, 2020</a><br>
+				<a href="https://www.youtube.com/watch?v=HfJpQCBTqZs">Vision & Graphics Seminar at MIT, 2020</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+						     <div class="colored-box" style="background-color: #c6b89e;">
+								 <h2>Academic Service</h2>
+								 </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                <a href="https://iccv.thecvf.com/">Lead Area Chair, ICCV 2025</a>
+                <br>
+                <a href="https://cvpr.thecvf.com/Conferences/2025/Organizers">Lead Area Chair, CVPR 2025</a>
+                <br>
+                <a href="https://cvpr.thecvf.com/Conferences/2024/Organizers">Area Chair, CVPR 2024</a>
+                <br>
+                <a href="https://cvpr2023.thecvf.com/Conferences/2023/Organizers">Demo Chair, CVPR 2023</a>
+                <br>
+                <a href="https://cvpr2022.thecvf.com/area-chairs">Area Chair, CVPR 2022</a>
+                <br>
+                <a href="http://cvpr2021.thecvf.com/area-chairs">Area Chair & Award Committee Member, CVPR 2021</a>
+                <br>
+                <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
+                <br>
+                <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
+              </td>
+            </tr>
+						
+						
+           
+            <tr>
+              <td align="center" style="padding:16px;width:20%;vertical-align:middle">
+						     <div class="colored-box" style="background-color: #edd892;">
+								 <h2>Teaching</h2>
+								 </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:center">
+                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
+                <br>
+                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
+                <br>
+                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
+              </td>
+            </tr>
+            -->
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Updated May. 2025. Template from <a href="https://jonbarron.info">Jon Barron.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
