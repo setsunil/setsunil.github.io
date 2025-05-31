@@ -23,7 +23,6 @@
                   Pin-Hung Kuo
                 </p>
                 <p>
-                  About me
                   I am a Ph.D. candidate in Graduate Institute of Electronics Engineering, National Taiwan University, Taiwan, under the advisement of Prof. Shao-Yi Chien and Prof. Ming-Hsuan Yang.
                   Before that, I received my B.S. and M.S. degrees from the EE Department at National Taiwan University in 2009 and 2012, respectively.
                 </p>
@@ -150,7 +149,7 @@
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle"><img src='media/papers/kuo2025efficient.png' width="200"></td>
           <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://ieeexplore.ieee.org/document/10937503">
+            <a href="https://setsunil.github.io/DSD/">
               <papertitle>Efficient Non-Blind Image Deblurring with Discriminative Shrinkage Deep Networks</papertitle>
             </a>
             <br><strong>Pin-Hung Kuo</strong>, Jinshan Pan, Shao-Yi Chien, Ming-Hsuan Yang
@@ -160,9 +159,44 @@
             <a href="https://setsunil.github.io/DSD/">Project Page</a> /
             <a href="https://ieeexplore.ieee.org/document/10937503">IEEE Xplore</a> /
             <a href="https://github.com/setsunil/DSDNet">GitHub</a>
+            <a href="data/kuo2025efficient.bib">bibtex</a>
           </td>
         </tr>
         <!-- DSD TCSVT-->
+        <!-- DSD ECCV -->
+        <tr onmouseout="dsd_stop()" onmouseover="dsd_start()">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='deepburst_image'><img src='media/papers/eccv22after.png'></div>
+              <img src='media/papers/eccv22before.png'>
+            </div>
+            <script type="text/javascript">
+              function dsd_start() {
+                document.getElementById('dsd_image').style.opacity = "1";
+              }
+
+              function dsd_stop() {
+                document.getElementById('dsd_image').style.opacity = "0";
+              }
+              dsd_stop()
+            </script>
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="https://setsunil.github.io/DSD/">
+              <span class="papertitle">Learning Discriminative Shrinkage Deep Networks for Image Deconvolution</span>
+            </a>
+            <br><strong>Pin-Hung Kuo</strong>, Jinshan Pan, Shao-Yi Chien, Ming-Hsuan Yang
+            <br>
+            <em>ECCV</em>, 2022
+            <br>
+            <a href="https://drive.google.com/file/d/16R000iQqk8YPHKsh1i4nKnagJXT2qpa8/view?usp=sharing">supplement</a> /
+            <a href="https://github.com/setsunil/DSDNet">GitHub</a> /
+            <a href="data/kuo2022learning.bib">bibtex</a>
+            <p></p>
+            <p>We train a network to predict linear kernels that denoise noisy bursts from cellphone cameras.</p>
+          </td>
+        </tr>
+        <!-- DSD ECCV-->
           </tbody></table>
 
           <!--
